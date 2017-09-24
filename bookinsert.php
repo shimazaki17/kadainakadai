@@ -3,7 +3,6 @@
 $name=$_POST["name"];
 $url=$_POST["url"];
 $naiyou=$_POST["naiyou"];
-
 //2. DB接続
 try {
   $pdo = new PDO('mysql:dbname=gs_db21;charset=utf8;host=localhost','root','');
